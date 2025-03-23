@@ -11,4 +11,6 @@ body {
 .inner {
   padding: 2px;
   background-color: green;
+  text-align: right;
+  transition: 0.5s ease-in;
 }
