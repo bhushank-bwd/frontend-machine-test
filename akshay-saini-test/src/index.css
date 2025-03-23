@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+.outer {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+.inner {
+  padding: 2px;
+  background-color: green;
+  color: white;
+}
