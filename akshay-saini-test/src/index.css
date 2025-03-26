@@ -14,3 +14,37 @@ body {
   text-align: right;
   transition: 0.5s ease-in;
 }
+.tabListDiv {
+  display: flex;
+}
+.tabTitle {
+  padding: 5px;
+  border: 1px solid black;
+}
+.activeTab {
+  border: 4px solid green;
+}
+.mainComponent {
+  text-align: left;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid black;
+  height: fit-content;
+}
+.d-none {
+  display: none;
+}
+.btn {
+  padding: 4px;
+  border: 1px solid transparent;
+  background-color: blue;
+  color: white;
+  margin: 2px 5px;
+}
+.profileInput {
+  margin: 2px;
+  padding: 5px;
+}
+.error {
+  color: red;
+}
