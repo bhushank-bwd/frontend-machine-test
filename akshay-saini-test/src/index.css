@@ -1,6 +1,6 @@
-body {
+/* body {
   text-align: center;
-}
+} */
 .outer {
   border: 1px solid black;
   border-radius: 10px;
@@ -47,4 +47,45 @@ body {
 }
 .error {
   color: red;
+}
+.productList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productItem img {
+  height: 130px;
+  width: 130px;
+}
+.productItem {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  height: 180px;
+  width: 220px;
+}
+.paginationDiv {
+  text-align: center;
+  margin: 5px 0px;
+}
+.paginationDiv button {
+  margin: 2px;
+  padding: 5px;
+  background-color: blue;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+}
+.paginationDiv .active {
+  margin: 2px;
+  padding: 5px;
+  background-color: green;
+  border: 1px solid blue;
+  color: white;
+  cursor: pointer;
+}
+.paginationDiv .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
