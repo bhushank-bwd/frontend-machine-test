@@ -1,6 +1,6 @@
-/* body {
+body {
   text-align: center;
-} */
+}
 .outer {
   border: 1px solid black;
   border-radius: 10px;
@@ -88,4 +88,12 @@
 .paginationDiv .disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+.otp-input {
+  padding: 2px;
+  width: 30px;
+  margin: 0px 5px;
+}
+.otp-input:focus {
+  border: 1px solid green;
 }
