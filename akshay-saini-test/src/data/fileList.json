@@ -1,0 +1,41 @@
+[
+  {
+    "id": 123,
+    "name": "public",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 1231,
+        "name": "vite.svg",
+        "isFolder": false,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "id": 1241,
+        "name": "component",
+        "isFolder": true,
+        "children": [
+          {
+            "id": 12411,
+            "name": "App.jsx",
+            "isFolder": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "index.html",
+    "isFolder": false,
+    "children": []
+  }
+]
