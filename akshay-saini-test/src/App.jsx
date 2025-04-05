@@ -1,9 +1,9 @@
-import FileNavBar from "./component/FileNavBar";
+import NestedCheckbox from "./component/NestedCheckbox";
 
 function App() {
   return (
     <>
-      <FileNavBar />
+      <NestedCheckbox />
     </>
   );
 }

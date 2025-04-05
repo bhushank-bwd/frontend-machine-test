@@ -144,3 +144,6 @@
   cursor: pointer;
   color: white;
 }
+.checkBoxItem {
+  padding-left: 20px;
+}

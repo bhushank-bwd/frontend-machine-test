@@ -27,6 +27,12 @@
             "name": "App.jsx",
             "isFolder": false,
             "children": []
+          },
+          {
+            "id": 12412,
+            "name": "FileNav.jsx",
+            "isFolder": false,
+            "children": []
           }
         ]
       }
