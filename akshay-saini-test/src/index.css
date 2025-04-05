@@ -124,4 +124,23 @@
 }
 .isFolder {
   padding: 0 8px;
+  cursor: pointer;
+}
+.addNode {
+  padding: 2px 5px;
+  background-color: green;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  color: white;
+}
+.deleteNode {
+  padding: 2px 5px;
+  background-color: red;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  color: white;
 }
