@@ -147,10 +147,12 @@
 .checkBoxItem {
   padding-left: 20px;
 }
+.todo,
 .chips-input {
   text-align: center;
   width: 100%;
 }
+.todo .input,
 .chips-input .input {
   width: 200px;
   padding: 2px;
@@ -179,4 +181,22 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   cursor: pointer;
+}
+.todo .add-todo {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: #a5a1a1;
+}
+.todo .list-item {
+  margin-top: 5px;
+}
+.todo .list-item input,
+span {
+  margin-right: 5px;
+}
+.todo .line-through {
+  text-decoration: line-through;
 }

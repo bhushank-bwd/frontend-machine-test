@@ -1,9 +1,9 @@
-import ChipInput from "./component/ChipInput";
+import Todo from "./component/Todo";
 
 function App() {
   return (
     <>
-      <ChipInput />
+      <Todo />
     </>
   );
 }
