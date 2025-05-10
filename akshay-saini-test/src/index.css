@@ -147,3 +147,36 @@
 .checkBoxItem {
   padding-left: 20px;
 }
+.chips-input {
+  text-align: center;
+  width: 100%;
+}
+.chips-input .input {
+  width: 200px;
+  padding: 2px;
+  margin: auto;
+}
+.chips-input .list {
+  margin: 25px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.chips-input .list-item {
+  padding: 5px 0px 5px 5px;
+  margin: 2px;
+  background-color: gray;
+  border-radius: 5px;
+  width: auto;
+}
+.chips-input .list-item-text {
+  margin-right: 10px;
+}
+.chips-input .list-item-remove {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}

@@ -1,9 +1,9 @@
-import NestedCheckbox from "./component/NestedCheckbox";
+import ChipInput from "./component/ChipInput";
 
 function App() {
   return (
     <>
-      <NestedCheckbox />
+      <ChipInput />
     </>
   );
 }
